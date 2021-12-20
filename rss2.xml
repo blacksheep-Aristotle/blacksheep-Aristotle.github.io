@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>MR.Z</title>
+    <link>http://aristotle-plato.xyz/</link>
+    
+    <atom:link href="http://aristotle-plato.xyz/rss2.xml" rel="self" type="application/rss+xml"/>
+    
+    <description>我心碎，并不为那些被我们丢下的，而是为那些我们原本可以，却未曾着手建造的</description>
+    <pubDate>Mon, 20 Dec 2021 10:47:30 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>c++内存</title>
+      <link>http://aristotle-plato.xyz/2021/12/20/c-%E5%86%85%E5%AD%98/</link>
+      <guid>http://aristotle-plato.xyz/2021/12/20/c-%E5%86%85%E5%AD%98/</guid>
+      <pubDate>Mon, 20 Dec 2021 10:42:07 GMT</pubDate>
+      
+      
+      
+      
+      <category domain="http://aristotle-plato.xyz/categories/interior/">interior</category>
+      
+      
+      <category domain="http://aristotle-plato.xyz/tags/c/">c++</category>
+      
+      
+      <comments>http://aristotle-plato.xyz/2021/12/20/c-%E5%86%85%E5%AD%98/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>c++多线程简要</title>
+      <link>http://aristotle-plato.xyz/2021/12/20/c-%E5%A4%9A%E7%BA%BF%E7%A8%8B%E7%AE%80%E8%A6%81/</link>
+      <guid>http://aristotle-plato.xyz/2021/12/20/c-%E5%A4%9A%E7%BA%BF%E7%A8%8B%E7%AE%80%E8%A6%81/</guid>
+      <pubDate>Mon, 20 Dec 2021 10:08:10 GMT</pubDate>
+      
+      
+      
+      
+      <category domain="http://aristotle-plato.xyz/categories/server/">server</category>
+      
+      
+      <category domain="http://aristotle-plato.xyz/tags/c/">c++</category>
+      
+      <category domain="http://aristotle-plato.xyz/tags/back-end/">back_end</category>
+      
+      
+      <comments>http://aristotle-plato.xyz/2021/12/20/c-%E5%A4%9A%E7%BA%BF%E7%A8%8B%E7%AE%80%E8%A6%81/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>毒药（高兴译）</title>
+      <link>http://aristotle-plato.xyz/2021/12/19/hello-world/</link>
+      <guid>http://aristotle-plato.xyz/2021/12/19/hello-world/</guid>
+      <pubDate>Sun, 19 Dec 2021 09:18:50 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;————-索列斯库&lt;/p&gt;
+&lt;p&gt;青草、山峦、河流和天空&lt;/p&gt;
+&lt;p&gt;纷纷走进我的血液，&lt;/p&gt;
+&lt;p&gt;此刻，我正等待着它们&lt;/p&gt;
+&lt;p&gt;药性发作。&lt;/p&gt;
+&lt;p&gt;由于青草，&lt;/p&gt;
+&lt;p&gt;我觉得全身开始葱笼。&lt;/p&gt;
+&lt;p&gt;由于山峦，&lt;/p&gt;
+&lt;p&gt;我的心充满了深渊&lt;</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p>————-索列斯库</p><p>青草、山峦、河流和天空</p><p>纷纷走进我的血液，</p><p>此刻，我正等待着它们</p><p>药性发作。</p><p>由于青草，</p><p>我觉得全身开始葱笼。</p><p>由于山峦，</p><p>我的心充满了深渊</p><p>和雾霭。</p><p>由于河流，</p><p>我的双足磨圆了</p><p>路上的每一颗石子，</p><p>依然在打听大海的下落。</p><p>我感到</p><p>自己仿佛变得蔚蓝，变得无边无际，</p><p>眼睛和指尖上</p><p>栖息着无数的星辰。</p>]]></content:encoded>
+      
+      
+      
+      
+      <comments>http://aristotle-plato.xyz/2021/12/19/hello-world/#disqus_thread</comments>
+      
+    </item>
+    
+  </channel>
+</rss>
