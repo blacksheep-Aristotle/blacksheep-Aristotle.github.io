@@ -5,6 +5,7 @@ const ap = new APlayer({
     volume: 0.6,        //默认音量
     listFolded: true,    //列表折叠
     listMaxHeight: 60,   //列表默认最大高度
+    fixed: true,
     audio: [
         {
             name: 'Anchor Made of Gold',
