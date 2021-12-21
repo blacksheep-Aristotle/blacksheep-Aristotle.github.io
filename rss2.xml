@@ -9,8 +9,76 @@
     <atom:link href="http://aristotle-plato.xyz/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>我心碎，并不为那些被我们丢下的，而是为那些我们原本可以，却未曾着手建造的</description>
-    <pubDate>Mon, 20 Dec 2021 10:47:30 GMT</pubDate>
+    <pubDate>Tue, 21 Dec 2021 14:36:41 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>游戏服务器开发之路1</title>
+      <link>http://aristotle-plato.xyz/2021/12/21/%E6%B8%B8%E6%88%8F%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%BC%80%E5%8F%91%E4%B9%8B%E8%B7%AF1/</link>
+      <guid>http://aristotle-plato.xyz/2021/12/21/%E6%B8%B8%E6%88%8F%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%BC%80%E5%8F%91%E4%B9%8B%E8%B7%AF1/</guid>
+      <pubDate>Tue, 21 Dec 2021 14:36:41 GMT</pubDate>
+      
+      
+      
+      
+      
+      
+      <comments>http://aristotle-plato.xyz/2021/12/21/%E6%B8%B8%E6%88%8F%E6%9C%8D%E5%8A%A1%E5%99%A8%E5%BC%80%E5%8F%91%E4%B9%8B%E8%B7%AF1/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>L-value and R-value</title>
+      <link>http://aristotle-plato.xyz/2021/12/21/L-value-and-R-value/</link>
+      <guid>http://aristotle-plato.xyz/2021/12/21/L-value-and-R-value/</guid>
+      <pubDate>Tue, 21 Dec 2021 11:04:53 GMT</pubDate>
+      
+      <description>&lt;h1 id=&quot;什么是左值和右值&quot;&gt;&lt;a href=&quot;#什么是左值和右值&quot; class=&quot;headerlink&quot; title=&quot;什么是左值和右值&quot;&gt;&lt;/a&gt;什么是左值和右值&lt;/h1&gt;&lt;p&gt;c++ primer plus：&lt;/p&gt;
+&lt;p&gt;变量和文字常量都有存储区，并且有相关的类型。区别在于变量是可寻址的（addressable）对于每一个变量都有两个值与其相联：&lt;/p&gt;
+&lt;p&gt;   1).它的数据值，存储在某个内存地址中。有时这个值也被称为对象的右值（rvalue,读做are-value）.我们也可认为右值的意思是被读取的值（read   value）。   文字常量和变量都可  被用作右值。   &lt;/p&gt;
+&lt;p&gt;   2).它的地址值——即存储数据值的那块内存的地址。它有时被称为变量的左值（lvalue，读作ell-value）。我们也可认为左值的意思是位置值location   value文字常量不能被用作左值。&lt;/p&gt;
+&lt;p&gt;简单来说左值就是存放在内存单元中（data段，roadata段。。。）的值，有实际存储地址，可以&amp;amp;取地址的？&lt;/p&gt;
+&lt;p&gt;右值则不是内存单元中的值，不能对它&amp;amp;取地址，可能存储在寄存器中，也可能是立即数或一个临时对象？&lt;/p&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<h1 id="什么是左值和右值"><a href="#什么是左值和右值" class="headerlink" title="什么是左值和右值"></a>什么是左值和右值</h1><p>c++ primer plus：</p><p>变量和文字常量都有存储区，并且有相关的类型。区别在于变量是可寻址的（addressable）对于每一个变量都有两个值与其相联：</p><p>   1).它的数据值，存储在某个内存地址中。有时这个值也被称为对象的右值（rvalue,读做are-value）.我们也可认为右值的意思是被读取的值（read   value）。   文字常量和变量都可  被用作右值。   </p><p>   2).它的地址值——即存储数据值的那块内存的地址。它有时被称为变量的左值（lvalue，读作ell-value）。我们也可认为左值的意思是位置值location   value文字常量不能被用作左值。</p><p>简单来说左值就是存放在内存单元中（data段，roadata段。。。）的值，有实际存储地址，可以&amp;取地址的？</p><p>右值则不是内存单元中的值，不能对它&amp;取地址，可能存储在寄存器中，也可能是立即数或一个临时对象？</p> <span id="more"></span>]]></content:encoded>
+      
+      
+      <category domain="http://aristotle-plato.xyz/categories/c/">c++</category>
+      
+      
+      <category domain="http://aristotle-plato.xyz/tags/c/">c++</category>
+      
+      
+      <comments>http://aristotle-plato.xyz/2021/12/21/L-value-and-R-value/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>auto</title>
+      <link>http://aristotle-plato.xyz/2021/12/21/%E5%85%B3%E4%BA%8Eauto/</link>
+      <guid>http://aristotle-plato.xyz/2021/12/21/%E5%85%B3%E4%BA%8Eauto/</guid>
+      <pubDate>Tue, 21 Dec 2021 07:41:54 GMT</pubDate>
+      
+      <description>&lt;p&gt;这几天leetcode刷题时发现auto遍历比for(i;)遍历快上不少（其实很早就有疑惑了），我个人猜测是因为for(auto )相当于迭代器，相较于a[i] 少了一次查找。顺便记一记auto遇到/看到的坑&lt;/p&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<p>这几天leetcode刷题时发现auto遍历比for(i;)遍历快上不少（其实很早就有疑惑了），我个人猜测是因为for(auto )相当于迭代器，相较于a[i] 少了一次查找。顺便记一记auto遇到/看到的坑</p> <span id="more"></span><h4 id="auto-和-const-auto-amp"><a href="#auto-和-const-auto-amp" class="headerlink" title="auto 和 const auto&amp;"></a>auto 和 const auto&amp;</h4><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">vector&lt;.....&gt; vec;</span><br><span class="line">...</span><br><span class="line"><span class="keyword">auto</span> s1 = vec[<span class="number">0</span>]; <span class="comment">// 创建一份 vec[0] 的拷贝。对s1改变不会影响vec</span></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">auto</span>&amp; s2 = vec[<span class="number">0</span>]; <span class="comment">// s2 是 vec[0] 的一个引用。不会拷贝也不会影响vec.</span></span><br><span class="line"><span class="keyword">auto</span>&amp; s3=vec[<span class="number">0</span>]; <span class="comment">//对s3操作会影响vec[0]，不能定义临时对象</span></span><br><span class="line"><span class="comment">/*Effective Modern C++ 第一章:</span></span><br><span class="line"><span class="comment">当被左值初始化时，auto&amp;&amp;是左值引用(l-value reference)</span></span><br><span class="line"><span class="comment">当被右值初始化时，auto&amp;&amp;是右值引用(r-value reference)</span></span><br><span class="line"><span class="comment">那么，当vector&lt;bool&gt;返回的是临时对象，即右值时，我们也能正确的使用右值引用捕获住。*/</span></span><br><span class="line"><span class="keyword">auto</span>&amp;&amp; s4=vec[<span class="number">0</span>]; <span class="comment">//同上，但可以定义临时对象</span></span><br><span class="line"><span class="keyword">const</span> <span class="keyword">auto</span> s5=vec[<span class="number">0</span>]; <span class="comment">//拷贝，但不修改它的值</span></span><br></pre></td></tr></table></figure><p>总结：</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">处理不含有proxy <span class="class"><span class="keyword">class</span> <span class="title">reference</span>的<span class="title">range</span>时，<span class="title">for</span>(<span class="title">auto</span> &amp; <span class="title">x</span> :</span> range)</span><br><span class="line">含有proxy <span class="class"><span class="keyword">class</span> <span class="title">reference</span>时的<span class="title">range</span>时，<span class="title">for</span>(<span class="title">auto</span> &amp;&amp; <span class="title">x</span> :</span> range)</span><br><span class="line">只读时用 <span class="keyword">for</span>(<span class="keyword">const</span> <span class="keyword">auto</span>&amp; x : range)</span><br></pre></td></tr></table></figure><h4 id="auto遇到Proxy-Class"><a href="#auto遇到Proxy-Class" class="headerlink" title="auto遇到Proxy Class"></a>auto遇到Proxy Class</h4><p>代理类(proxy class),指的是”它的每一个对象都是为了其他对象而存在的,就像是其他对象的代理人一般”.某些情况下用代理类取代某些内置类型可以实现独特的功能,因为可以为代理类定义成员函数而但却无法对内置类型定义操作.</p><p>简而言之proxy class就是在一个class中，嵌套的声明了另一个class，利用了这个隐藏的嵌套class以实现一些特殊技巧。</p><p>例：vector<bool> 返回的不是bool而是一个用于引用bool的代理类！平时使用，这个类会有一个隐式转换，所以看起来和用一个bool没什么差别，但是当你auto时，得到的并不是bool而是bool的代理类！如果你想auto它，那你得先static_cast<bool> 强转，再使用auto。</p>]]></content:encoded>
+      
+      
+      <category domain="http://aristotle-plato.xyz/categories/c/">c++</category>
+      
+      
+      <category domain="http://aristotle-plato.xyz/tags/c/">c++</category>
+      
+      <category domain="http://aristotle-plato.xyz/tags/stl/">stl</category>
+      
+      
+      <comments>http://aristotle-plato.xyz/2021/12/21/%E5%85%B3%E4%BA%8Eauto/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>c++内存</title>
