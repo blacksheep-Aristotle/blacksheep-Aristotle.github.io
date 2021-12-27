@@ -358,7 +358,7 @@
       <header class="post-header">
         <h2 class="post-title" itemprop="name headline">
           
-            <a href="/2021/12/21/L-value-and-R-value/" class="post-title-link" itemprop="url">L-value and R-value</a>
+            <a href="/2021/12/21/L-value-and-R-value/" class="post-title-link" itemprop="url">L-value and R-value and par and arg</a>
         </h2>
 
         <div class="post-meta">
@@ -367,10 +367,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2021-12-21 19:04:53 / 修改时间：22:38:09" itemprop="dateCreated datePublished" datetime="2021-12-21T19:04:53+08:00">2021-12-21</time>
+              <time title="创建时间：2021-12-21 19:04:53" itemprop="dateCreated datePublished" datetime="2021-12-21T19:04:53+08:00">2021-12-21</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-12-28 00:39:34" itemprop="dateModified" datetime="2021-12-28T00:39:34+08:00">2021-12-28</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -384,11 +390,11 @@
           
 
 <span title="post.wordcount">
-    270 字
+    731 字
 </span>
 
 <span title="post.min2read">
-    1 分钟
+    3 分钟
 </span>
 
         </div>
@@ -406,6 +412,7 @@
 <p>   2).它的地址值——即存储数据值的那块内存的地址。它有时被称为变量的左值（lvalue，读作ell-value）。我们也可认为左值的意思是位置值location   value文字常量不能被用作左值。</p>
 <p>简单来说左值就是存放在内存单元中（data段，roadata段。。。）的值，有实际存储地址，可以&amp;取地址的？</p>
 <p>右值则不是内存单元中的值，不能对它&amp;取地址，可能存储在寄存器中，也可能是立即数或一个临时对象？</p>
+<p>一个对象被用作右值时，使用的是它的内容(值)，被当作左值时，使用的是它的地址（右值引用用于表达式中时会变为左值）。</p>
           <!--noindex-->
             <div class="post-button">
               <a class="btn" href="/2021/12/21/L-value-and-R-value/#more" rel="contents">
@@ -538,10 +545,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2021-12-20 18:42:07 / 修改时间：18:47:30" itemprop="dateCreated datePublished" datetime="2021-12-20T18:42:07+08:00">2021-12-20</time>
+              <time title="创建时间：2021-12-20 18:42:07" itemprop="dateCreated datePublished" datetime="2021-12-20T18:42:07+08:00">2021-12-20</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2021-12-28 00:39:02" itemprop="dateModified" datetime="2021-12-28T00:39:02+08:00">2021-12-28</time>
+              </span>
             <span class="post-meta-item">
               <span class="post-meta-item-icon">
                 <i class="far fa-folder"></i>
@@ -555,11 +568,11 @@
           
 
 <span title="post.wordcount">
-    0 字
+    6k 字
 </span>
 
 <span title="post.min2read">
-    1 分钟
+    22 分钟
 </span>
 
         </div>
@@ -571,7 +584,16 @@
     <div class="post-body" itemprop="articleBody">
 
       
-          
+          <h1 id="进程在内存中的存储形式"><a href="#进程在内存中的存储形式" class="headerlink" title="进程在内存中的存储形式"></a>进程在内存中的存储形式</h1><p><strong>什么是段</strong></p>
+<p>一个程序经过编译后生成的文件里除了包含编译后的及机器指令代码，数据，还有所需的符号表，字符串等等等。这些信息就按照不同的属性存储在内存中。这就是段，一个一定长度的内存区域，存储着相同属性的数据。</p>
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2021/12/20/c-%E5%86%85%E5%AD%98/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
